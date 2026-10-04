@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="24dp">
+
+    <TextView
+        android:id="@+id/textViewTitre"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/titre"
+        android:textSize="28sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textViewCompteur"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:layout_marginBottom="32dp"
+        android:text="@string/valeur_initiale"
+        android:textSize="72sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/buttonIncrementer"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="12dp"
+        android:text="@string/bouton_plus"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/buttonDecrementer"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="12dp"
+        android:text="@string/bouton_moins"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/buttonReinitialiser"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="@string/bouton_reinitialiser"
+        android:textSize="20sp" />
+
+</LinearLayout>
